@@ -9,7 +9,7 @@ import time
 
 def checkDomainAvailability(url=None):
     # Path to the chrome driver
-    chrome_driver_path="../chromedriver"
+    chrome_driver_path="../../Selenium/chromedriver"
 
     # Initialize the web driver
     chrome_options = Options()
